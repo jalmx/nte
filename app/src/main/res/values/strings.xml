@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Nto</string>
+    <string name="calificacion">Calificación máxima</string>
+    <string name="reactivos">Número máximo de reactivos</string>
+    <string name="calcular">Calcular</string>
 </resources>
