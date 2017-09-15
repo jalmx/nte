@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.leyva.josef.nto.util.Calculate;
+
 public class MainActivity extends AppCompatActivity {
 
     /**
@@ -26,22 +28,16 @@ public class MainActivity extends AppCompatActivity {
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    resultado.setText("");
-                    double margen = 0.5;
-                    int c = Integer.parseInt(calficacion.getText().toString()); //calificacion
-                    int r = Integer.parseInt(reactivos.getText().toString()); //reactivos
+                resultado.setText("");
 
-                    for (int i = r * 2; i >= 0; i--) {
-                        double rs = ((r - i * margen) * c) / r;
-                        resultado.append(String.format("Reactivo: %.2f", r - i * margen) + " - " +
-                                String.format("Resultado: %.2f", rs) + "\n");
-                    }
+                try {
+                    resultado.setText(
+                            Calculate.calculate(calficacion.getText().toString(), reactivos.getText().toString())
+                    );
 
                 } catch (Exception e) {
-                    Toast.makeText(MainActivity.this, "Error - Sólo digitos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.message_error, Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
     }

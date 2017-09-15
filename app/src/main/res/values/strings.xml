@@ -3,4 +3,5 @@
     <string name="calificacion">Calificación máxima</string>
     <string name="reactivos">Número máximo de reactivos</string>
     <string name="calcular">Calcular</string>
+    <string name="message_error">"Error - Sólo dígitos"</string>
 </resources>
