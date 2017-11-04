@@ -13,6 +13,7 @@ Ejemplo:
 
 - Crear la activity para informacion de creacion
 - Agregar opciones de 1/4, 1/2 incremento
+- Ciclo for con long, issues
 
 ### Screenshot
 ![vista](./vista.png "Vista")

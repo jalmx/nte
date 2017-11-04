@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "64510213635",
+    "firebase_url": "https://nto-app-x.firebaseio.com",
+    "project_id": "nto-app-x",
+    "storage_bucket": "nto-app-x.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64510213635:android:55b94bb9dcc8627e",
+        "android_client_info": {
+          "package_name": "com.leyva.josef.nto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64510213635-ju90auvsp7cvmfg5t661co08t32f4g5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIf0XxYv0KaTbczdWFIRaXd05SqlreunI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
