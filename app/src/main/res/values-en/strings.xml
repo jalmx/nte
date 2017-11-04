@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nto</string>
+    <string name="qualification_max">Qualification max</string>
+    <string name="number_max_reactive">Number max record</string>
+    <string name="calculate">Calculate</string>
+    <string name="message_error">"Error - Just digit"</string>
+    <string name="reactive">Reactive</string>
+    <string name="result">Result</string>
+</resources>

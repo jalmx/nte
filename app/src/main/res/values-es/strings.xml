@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nto</string>
     <string name="qualification_max">Calificación máxima</string>
@@ -5,6 +6,6 @@
     <string name="calculate">Calcular</string>
     <string name="message_error">"Error - Sólo dígitos"</string>
 
-    <string name="reactive">Reactive</string>
-    <string name="result">Result</string>
+    <string name="reactive">Reactivos</string>
+    <string name="result">Resultado</string>
 </resources>
