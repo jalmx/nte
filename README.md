@@ -9,6 +9,11 @@ Ejemplo:
  da el valor de la respuestas, en intervalos de 0.5
 ```
 
+### Future
+
+- Crear la activity para informacion de creacion
+- Agregar opciones de 1/4, 1/2 incremento
+
 ### Screenshot
 ![vista](./vista.png "Vista")
 

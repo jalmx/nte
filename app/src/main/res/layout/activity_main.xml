@@ -24,11 +24,12 @@
                 android:textSize="18sp" />
 
             <EditText
+                android:id="@+id/calificacion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/qualification_max"
-                android:id="@+id/calificacion"
-                android:inputType="numberSigned" />
+                android:inputType="numberSigned"
+                android:singleLine="true" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,11 +40,12 @@
                 android:textSize="18sp" />
 
             <EditText
+                android:id="@+id/reactivos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/number_max_reactive"
-                android:id="@+id/reactivos"
-                android:inputType="numberSigned"/>
+                android:inputType="numberSigned"
+                android:singleLine="true" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
