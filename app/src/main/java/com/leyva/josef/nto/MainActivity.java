@@ -11,16 +11,21 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.leyva.josef.nto.admob.AdMob;
+
 import java.util.ArrayList;
 
 import static com.leyva.josef.nto.util.Calculate.ruleTre;
 
 public class MainActivity extends AppCompatActivity {
 
+    private AdMob adMob;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        adMob = new AdMob(this);
         buttonAction();
         actionEditTextHideKeyboard();
     }
@@ -93,4 +98,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onPause() {
+        adMob.pauseAdMob();
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        adMob.resumeAdMob();
+        super.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        adMob.destroyAdMob();
+        super.onDestroy();
+    }
+
 }

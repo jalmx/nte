@@ -7,4 +7,7 @@
 
     <string name="reactive">Reactive</string>
     <string name="result">Result</string>
+
+    <string name="app_id">ca-app-pub-1366168498409484~6954488143</string>
+    <string name="app_unit_id">ca-app-pub-1366168498409484/4136753110</string>
 </resources>
